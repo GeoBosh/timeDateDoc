@@ -68,42 +68,47 @@ Functions to compute skewness."><!-- mathjax --><script src="https://cdnjs.cloud
 
     <div class="section level2">
     <h2 id="arguments">Arguments<a class="anchor" aria-label="anchor" href="#arguments"></a></h2>
-    <dl><dt>na.rm</dt>
-<dd><p>a logical. Should missing values be removed?</p></dd>
-
-    <dt>method</dt>
-<dd><p>a character string which specifies the method of computation. 
-        These are either <code>"moment"</code> or <code>"fisher"</code>
-        The <code>"moment"</code> method is based on the definitions of 
-        skewnessfor distributions; these forms should 
-        be used when resampling (bootstrap or jackknife). The 
-        <code>"fisher"</code> method correspond to the usual "unbiased" 
-        definition of sample variance, although in the case of skewness 
-        exact unbiasedness is not possible.</p></dd>
-
-    <dt>x</dt>
+    <dl><dt>x</dt>
 <dd><p>a numeric vector or object.</p></dd>
 
-    <dt>...</dt>
+  <dt>na.rm</dt>
+<dd><p>a logical. Should missing values be removed?</p></dd>
+
+  <dt>method</dt>
+<dd>
+    
+<p>a character string, the method of computation, see section
+    ‘Detaials’.</p>    
+<p></p></dd>
+
+  <dt>...</dt>
 <dd><p>arguments to be passed.</p></dd>
 
-        
 </dl></div>
+    <div class="section level2">
+    <h2 id="details">Details<a class="anchor" aria-label="anchor" href="#details"></a></h2>
+    
+
+<p>Argument <code>method</code> can be one of <code>"moment"</code> or
+  <code>"fisher"</code>.  The <code>"moment"</code> method is based on the
+  definitions of skewness for distributions and this should be used when
+  resampling (bootstrap or jackknife). The <code>"fisher"</code> method
+  correspond to the usual "unbiased" definition of sample variance,
+  although in the case of skewness exact unbiasedness is not possible.</p>
+    </div>
     <div class="section level2">
     <h2 id="value">Value<a class="anchor" aria-label="anchor" href="#value"></a></h2>
     
     
 
 <p>a numeric value or vector with attribute <code>"method"</code> indicating
-    the method.</p>
+  the method.</p>
     
 
     </div>
     <div class="section level2">
     <h2 id="see-also">See also<a class="anchor" aria-label="anchor" href="#see-also"></a></h2>
-    <div class="dont-index">
-
-<p><code><a href="stats-kurtosis.html">kurtosis</a></code>.</p></div>
+    <div class="dont-index"><p><code><a href="stats-kurtosis.html">kurtosis</a></code></p></div>
     </div>
 
     <div class="section level2">

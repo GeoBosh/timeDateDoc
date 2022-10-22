@@ -73,29 +73,22 @@ Generic function for computation of kurtosis.
 
     <div class="section level2">
     <h2 id="arguments">Arguments<a class="anchor" aria-label="anchor" href="#arguments"></a></h2>
-    <dl><dt>na.rm</dt>
-<dd><p>a logical. Should missing values be removed?</p></dd>
-
-    <dt>method</dt>
-<dd><p>a character string which specifies the method of computation. 
-        These are either <code>"moment"</code>, <code>"fisher"</code>, or <code>"excess"</code>. 
-        If <code>"excess"</code> is 
-        selected, then the value of the kurtosis is computed by the
-        <code>"moment"</code> method and a value of 3 will be subtracted.
-        The <code>"moment"</code> method is based on the definitions of 
-        kurtosis for distributions; these forms should 
-        be used when resampling (bootstrap or jackknife). The 
-        <code>"fisher"</code> method correspond to the usual "unbiased" 
-        definition of sample variance, although in the case of
-        kurtosis exact unbiasedness is not possible.</p></dd>
-
-    <dt>x</dt>
+    <dl><dt>x</dt>
 <dd><p>a numeric vector or object.</p></dd>
 
-    <dt>...</dt>
+  <dt>na.rm</dt>
+<dd><p>a logical. Should missing values be removed?</p></dd>
+
+  <dt>method</dt>
+<dd>
+
+<p>a character string, the method of computation, see section
+    ‘Details’.</p>
+<p></p></dd>
+
+  <dt>...</dt>
 <dd><p>arguments to be passed.</p></dd>
 
-        
 </dl></div>
     <div class="section level2">
     <h2 id="details">Details<a class="anchor" aria-label="anchor" href="#details"></a></h2>
@@ -103,6 +96,15 @@ Generic function for computation of kurtosis.
 
 <p><code>kurtosis</code> is an S3 generic function.  This page describes the
   methods defined in package <code>dateTime</code>.</p>
+<p>Argument <code>"method"</code> can be one of <code>"moment"</code>,
+  <code>"fisher"</code>, or <code>"excess"</code>.  If <code>"excess"</code> is selected,
+  then the value of the kurtosis is computed by the <code>"moment"</code>
+  method and a value of 3 will be subtracted.  The <code>"moment"</code>
+  method is based on the definitions of kurtosis for distributions and
+  this method should be used when resampling (bootstrap or
+  jackknife). The <code>"fisher"</code> method correspond to the usual
+  "unbiased" definition of sample variance, although in the case of
+  kurtosis exact unbiasedness is not possible.</p>  
 <p>If <code>x</code> is numeric the kurtosis is computed according to the
   description given for argument <code>method</code>. A logical vector is
   treated as a vector of 1's and 0's.</p>
@@ -126,9 +128,7 @@ Generic function for computation of kurtosis.
     </div>
     <div class="section level2">
     <h2 id="see-also">See also<a class="anchor" aria-label="anchor" href="#see-also"></a></h2>
-    <div class="dont-index">
-
-<p><code><a href="stats-skewness.html">skewness</a></code>.</p></div>
+    <div class="dont-index"><p><code><a href="stats-skewness.html">skewness</a></code></p></div>
     </div>
 
     <div class="section level2">
