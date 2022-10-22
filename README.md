@@ -14,8 +14,12 @@ respect to your personal financial center, or alternatively to the GMT reference
 time. It can thus also handle time stamps from historical data records from the
 same time zone, even if the financial centers changed day light saving times at
 different calendar dates.
-The package is part of the Rmetrics suite of R packages and is developed on
-[R-forge](https://r-forge.r-project.org/projects/rmetrics).
+
+Package `timeDate` is part of the Rmetrics suite of R packages and is developed
+on R-forge at
+[timeDate](https://r-forge.r-project.org/scm/viewvc.php/pkg/timeDate/?root=rmetrics).
+The root of Rmetrics is at [R-forge](https://r-forge.r-project.org/projects/rmetrics).
+
 
 This repository contains only the documentation of 'timeDate', created with `pkgdown`.
 The rendered website is at [timeDateDoc](https://geobosh.github.io/timeDateDoc/)
