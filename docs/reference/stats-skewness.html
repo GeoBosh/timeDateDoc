@@ -70,7 +70,8 @@ Functions to compute skewness."><!-- mathjax --><script src="https://cdnjs.cloud
     <h2 id="arguments">Arguments<a class="anchor" aria-label="anchor" href="#arguments"></a></h2>
     <dl><dt>na.rm</dt>
 <dd><p>a logical. Should missing values be removed?</p></dd>
-<dt>method</dt>
+
+    <dt>method</dt>
 <dd><p>a character string which specifies the method of computation. 
         These are either <code>"moment"</code> or <code>"fisher"</code>
         The <code>"moment"</code> method is based on the definitions of 
@@ -79,15 +80,24 @@ Functions to compute skewness."><!-- mathjax --><script src="https://cdnjs.cloud
         <code>"fisher"</code> method correspond to the usual "unbiased" 
         definition of sample variance, although in the case of skewness 
         exact unbiasedness is not possible.</p></dd>
-<dt>x</dt>
+
+    <dt>x</dt>
 <dd><p>a numeric vector or object.</p></dd>
-<dt>...</dt>
+
+    <dt>...</dt>
 <dd><p>arguments to be passed.</p></dd>
+
+        
 </dl></div>
     <div class="section level2">
     <h2 id="value">Value<a class="anchor" aria-label="anchor" href="#value"></a></h2>
-    <p>a numeric value or vector with attribute <code>"method"</code> indicating
+    
+    
+
+<p>a numeric value or vector with attribute <code>"method"</code> indicating
     the method.</p>
+    
+
     </div>
     <div class="section level2">
     <h2 id="see-also">See also<a class="anchor" aria-label="anchor" href="#see-also"></a></h2>
@@ -103,13 +113,13 @@ Functions to compute skewness."><!-- mathjax --><script src="https://cdnjs.cloud
 <span class="r-in">   <span class="co"># Mean, Variance:</span></span>
 <span class="r-in">   <span class="va">r</span> <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/stats/Normal.html" class="external-link">rnorm</a></span><span class="op">(</span><span class="fl">100</span><span class="op">)</span></span>
 <span class="r-in">   <span class="fu"><a href="https://rdrr.io/r/base/mean.html" class="external-link">mean</a></span><span class="op">(</span><span class="va">r</span><span class="op">)</span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] -0.05120806</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 0.02388186</span>
 <span class="r-in">   <span class="fu"><a href="https://rdrr.io/r/stats/cor.html" class="external-link">var</a></span><span class="op">(</span><span class="va">r</span><span class="op">)</span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 0.9671079</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 1.000822</span>
 <span class="r-in">   </span>
 <span class="r-in"><span class="co">## skewness -</span></span>
 <span class="r-in">   <span class="fu">skewness</span><span class="op">(</span><span class="va">r</span><span class="op">)</span>  </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] -0.1542216</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 0.07497603</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> attr(,"method")</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [1] "moment"</span>
 </code></pre></div>
@@ -123,7 +133,7 @@ Functions to compute skewness."><!-- mathjax --><script src="https://cdnjs.cloud
 </div>
 
 <div class="pkgdown-footer-right">
-  <p></p><p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.3.</p>
+  <p></p><p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.6.</p>
 </div>
 
     </footer></div>
