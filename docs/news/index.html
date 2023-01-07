@@ -40,19 +40,21 @@
 
     <div class="section level2">
 <h2 class="pkg-version" data-toc-text="4022.108" id="timedate-4022108">timeDate 4022.108<a class="anchor" aria-label="anchor" href="#timedate-4022108"></a></h2>
-<ul><li><p><code>CAFamilyDay</code> (Canada Family Day) was missing from the list returned by <code><a href="../reference/holiday-Listing.html">listHolidays()</a></code>. It was missing only from that list, <code><a href="../reference/holiday-TSX.html">holidayTSX()</a></code> was including it when applicable.</p></li>
+<ul><li><p>added the 2023 UK Bank holiday for the coronation of King Charles III.</p></li>
+<li><p><code>axis.timeDate</code> was not handling properly the case when <code>x</code> was missing, leading to errors from R-devel check (2023-01-07 r83578). Fix suggested by Uwe Lieges.</p></li>
+<li><p>refactored file NAMESPACE to facilitate maintenance (that revealed the two omissions listed below).</p></li>
+<li><p><code>CAFamilyDay</code> (Canada Family Day) was missing from the list returned by <code><a href="../reference/holiday-Listing.html">listHolidays()</a></code>. It was missing only from that list, <code><a href="../reference/holiday-TSX.html">holidayTSX()</a></code> was including it when applicable.</p></li>
 <li><p><code>JPVernalEquinox</code> was missing from the list returned by <code><a href="../reference/holiday-Listing.html">listHolidays()</a></code>.</p></li>
-<li><p>refactored file NAMESPACE to facilitate maintenance (that revealed the omissions listed above).</p></li>
+<li><p>the financial centers are now updated to reflect changes in time zones in recent years. The list returned by <code><a href="../reference/timeDate-listFinCenter.html">listFinCenter()</a></code> is synchronised with current time zone names. Previous names supported by timeDate are available as aliases.</p></li>
 <li><p>import selectively from ‘stats’ and ‘utils’.</p></li>
-<li><p>the financial centers were updated to reflect changes in time zones in recent years. The list returned by <code><a href="../reference/timeDate-listFinCenter.html">listFinCenter()</a></code> is synchronised with current time zone names. Previous names supported by timeDate are available as aliases.</p></li>
 </ul></div>
     <div class="section level2">
 <h2 class="pkg-version" data-toc-text="4021.107" id="timedate-4021107">timeDate 4021.107<a class="anchor" aria-label="anchor" href="#timedate-4021107"></a></h2><p class="text-muted">CRAN release: 2022-12-08</p>
 <ul><li><p>London financial centre holidays - fixed and/or included non-standard holidays (e.g., Early May Bank holiday was moved in 2020 to VE day; Spring Bank holiday was moved in Queen’s Jubilee years; state funeral of the Queen). Millenium day now is included in the result of <code>holidayLONDON(1999)</code>. The London holidays should now be complete up to the time of writing this (1 Oct 2022).</p></li>
 <li><p>renamed <code>GBMayDay</code> to <code>GBEarlyMayBankHoliday</code> and <code>GBBankHoliday</code> to <code>GBSpringBankHoliday</code>. The old names are somewhat ambiguous and strongly discouraged but still available. <code><a href="../reference/holiday-Listing.html">listHolidays()</a></code> gives the new names.</p></li>
 <li><p>the generic <code><a href="../reference/timeDate.html">timeDate()</a></code> gets argument ‘…’ to allow methods for it to have additional arguments (e.g., for DST gaps).</p></li>
-<li><p>the ‘character’ method for <code>dateTime()</code> gets a new argument <code>dst_gap</code> to control what to do with non-existent DST times at the requested <code>FinCenter</code> with options to add/subtract (“+”, “-”) the DST shift or set them to <code>NA</code>.</p></li>
-<li><p><code>DateTime()</code> was not handling correctly some times just after the switch to/from DST. This was visible mostly for time zones away from GMT and GMT+1.</p></li>
+<li><p>the ‘character’ method for <code><a href="../reference/timeDate.html">timeDate()</a></code> gets a new argument <code>dst_gap</code> to control what to do with non-existent DST times at the requested <code>FinCenter</code> with options to add/subtract (“+”, “-”) the DST shift or set them to <code>NA</code>.</p></li>
+<li><p><code><a href="../reference/timeDate.html">timeDate()</a></code> was not handling correctly some times just after the switch to/from DST. This was visible mostly for time zones away from GMT and GMT+1.</p></li>
 <li>
 <p>In <code><a href="../reference/timeDate-Sequence.html">timeSequence()</a></code>, if any of the generated times would fall in DST gaps, they are moved by “+1 hour”, corresponding to <code>dst_gap = "+"</code> in <code>timeDate</code>. This is consistent with <code>seq</code> for other time objects. Currently there is no option to change this behaviour of <code>timeSequence</code>.</p>
 <p>Previously <code>timeSequence</code> was moving DST gaps down by 1 hour (for by = ‘DSTday’ and similar). This was not consistent similar time functions in R and was actually due to a bug (or unfinished DST handling) in <code>timeDate</code>, see remarks for <code>timeDate</code> above.</p>
@@ -64,7 +66,7 @@
 </ul></div>
     <div class="section level2">
 <h2 class="pkg-version" data-toc-text="4021.106" id="timedate-4021106">timeDate 4021.106<a class="anchor" aria-label="anchor" href="#timedate-4021106"></a></h2><p class="text-muted">CRAN release: 2022-09-30</p>
-<ul><li>fix <code><a href="../reference/timeDate-whichFormat.html">whichFormat()</a></code> to accommodate a change in R-devel after which <code>as.character(Sys.time())</code> contains fractional seconds. (<code>format(Sys.time())</code> doesn’t; before this change in R-devel both were dropping the fractional seconds). (see timeDate rev 6286)</li></ul></div>
+<ul><li>fix <code><a href="../reference/timeDate-whichFormat.html">whichFormat()</a></code> to accommodate a change in R-devel after which <code>as.character(Sys.time())</code> contains fractional seconds. (<code>format(Sys.time())</code> doesn’t; before this change in R-devel both were dropping the fractional seconds). (fixed by Martin Maechler, see timeDate rev 6286)</li></ul></div>
     <div class="section level2">
 <h2 class="pkg-version" data-toc-text="4021.105" id="timedate-4021105">timeDate 4021.105<a class="anchor" aria-label="anchor" href="#timedate-4021105"></a></h2>
 <ul><li>
@@ -76,7 +78,7 @@
 <p>Returning any closing day by default might be considered a breaking change. However, not returning all closing days was perceived as erroneous by users (eg issue #1356). In fact, the package itself calculates business days by dropping weekends and days returned by <code>holidayXXXX</code>.</p>
 <p>Note that <code><a href="../reference/holiday.html">holiday()</a></code> returns the actual dates of the public holidays, while the corresponding days returned by <code>holidayXXXX</code> are the resulting non-weekend closing days, if any.</p>
 </li>
-<li><p><code><a href="../reference/holiday-TSX.html">holidayTSX()</a></code> now correctly calculate Christmas and Boxing day closures when Christmas is on Monday. Fixes the part (2) of issue #1288 reported by Stefan Wilhelm (part (1) was fixed in a previous release). The fix is really a patch for the specific issue, maybe the same should be done when Christmas is on Sunday, for example. Information/contribution on Canadian holidays is welcome.</p></li>
+<li><p><code><a href="../reference/holiday-TSX.html">holidayTSX()</a></code> now correctly calculates Christmas and Boxing day closures when Christmas is on Monday. Fixes part (2) of issue #1288 reported by Stefan Wilhelm (part (1) was fixed in a previous release). The fix is really a patch for the specific issue, maybe the same should be done when Christmas is on Sunday, for example. Information/contribution on Canadian holidays is welcome.</p></li>
 <li><p>now <code><a href="../reference/holiday.html">holiday()</a></code> accepts also a function or a list of functions for argument ‘Holiday’.</p></li>
 <li><p><code>timeNthNdayInMonth</code> could return a value in the following month. Now fixed. This is bug #1463 reported with a fix by Manny C. Note that the bug was not present for dates in the first day of a month.</p></li>
 <li><p><code>timeLastNdayInMonth</code> could return a value in the following month, e.g. ‘1996-06-04’ for the last Tuesday in May 1996. Now fixed. The check of this function was prompted by the bug report for #1463 (see above) for <code>timeNthNdayInMonth</code> but the error was different.</p></li>
