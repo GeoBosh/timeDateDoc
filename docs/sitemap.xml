@@ -1,207 +1,81 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/404.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/authors.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/index.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/news/index.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/00timeDate-package.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/base-c.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/base-diff.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/base-difftimeDate.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/base-format.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/base-length.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/base-rep.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/base-rev.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/base-round.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/base-sample.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/base-sort.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/base-start.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/base-subset.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/base-summary.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/base-unique.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/calendar-Easter.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/calendar-align.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/calendar-dayOfWeek.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/calendar-dayOfYear.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/calendar-endpoints.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/calendar-firstDay.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/calendar-isBizday.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/calendar-isRegular.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/calendar-isWeekday.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/calendar-julian.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/calendar-nDay.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/calendar-onOrAfter.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/calendar-periods.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/class-timeDate.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/earlyCloseNYSE.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/graphics-plot.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/holiday-Dates.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/holiday-LONDON.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/holiday-Listing.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/holiday-NERC.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/holiday-NYSE.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/holiday-TSX.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/holiday-ZURICH.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/holiday.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/index.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/methods-as.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/methods-mathOps.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/methods-names.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/methods-show.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/options-RmetricsOptions.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/options-currentYear.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/options-myFinCenter.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/options-myUnits.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/specialHolidayGB.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/stats-blockStart.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/stats-kurtosis.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/stats-na-fail.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/stats-skewness.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/stats-window.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/timeDate-Calendar.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/timeDate-DaylightSavingTime.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/timeDate-Sequence.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/timeDate-Sys.timeDate.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/timeDate-finCenter.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/timeDate-listFinCenter.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/timeDate-midnightStandard.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/timeDate-rulesFinCenter.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/timeDate-whichFormat.html</loc>
-  </url>
-  <url>
-    <loc>https://geobosh.github.io/timeDateDoc/reference/timeDate.html</loc>
-  </url>
+<urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
+<url><loc>https://geobosh.github.io/timeDateDoc/404.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/authors.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/index.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/news/index.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/00timeDate-package.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/base-c.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/base-diff.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/base-difftimeDate.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/base-format.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/base-length.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/base-rep.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/base-rev.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/base-round.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/base-sample.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/base-sort.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/base-start.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/base-subset.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/base-summary.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/base-unique.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/calendar-align.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/calendar-dayOfWeek.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/calendar-dayOfYear.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/calendar-Easter.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/calendar-endpoints.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/calendar-firstDay.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/calendar-isBizday.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/calendar-isRegular.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/calendar-isWeekday.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/calendar-julian.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/calendar-nDay.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/calendar-onOrAfter.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/calendar-periods.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/class-timeDate.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/earlyCloseNYSE.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/GBBankHoliday.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/GBMayDay.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/GBMilleniumDay.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/graphics-plot.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/holiday-Dates.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/holiday-Listing.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/holiday-LONDON.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/holiday-NERC.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/holiday-NYSE.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/holiday-TSX.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/holiday-ZURICH.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/holiday.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/index.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/in_int.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/methods-as.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/methods-mathOps.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/methods-names.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/methods-show.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/options-currentYear.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/options-myFinCenter.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/options-myUnits.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/options-RmetricsOptions.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/pasteMat.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/show,ANY-method.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/show.timeDate.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/specialHolidayGB.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/stats-blockStart.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/stats-kurtosis.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/stats-na-fail.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/stats-skewness.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/stats-window.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/timeCeiling.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/timeDate-Calendar.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/timeDate-DaylightSavingTime.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/timeDate-finCenter.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/timeDate-listFinCenter.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/timeDate-midnightStandard.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/timeDate-rulesFinCenter.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/timeDate-Sequence.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/timeDate-Sys.timeDate.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/timeDate-whichFormat.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/timeDate.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/timeInterval-class.html</loc></url>
+<url><loc>https://geobosh.github.io/timeDateDoc/reference/timeInterval-methods.html</loc></url>
 </urlset>
+
