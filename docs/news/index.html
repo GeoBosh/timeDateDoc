@@ -38,7 +38,7 @@
     </div>
 
     <div class="section level2">
-<h2 class="pkg-version" data-toc-text="4051.111" id="timedate-4051111">timeDate 4051.111<a class="anchor" aria-label="anchor" href="#timedate-4051111"></a></h2><p class="text-muted">CRAN release: 2025-10-17</p>
+<h2 class="pkg-version" data-toc-text="4051.111.9000" id="timedate-40511119000">timeDate 4051.111.9000<a class="anchor" aria-label="anchor" href="#timedate-40511119000"></a></h2>
 <ul><li><p>EDIT BEFORE SUBMITTING NEXT VERSION</p></li>
 <li><p>streamlined <code><a href="../reference/holiday-NYSE.html">holidayNYSE()</a></code>.</p></li>
 <li><p>fixed a minor bug in <code><a href="../reference/holiday-TSX.html">holidayTSX()</a></code> and streamlined it a bit. <em>TODO: (1) set some tests, see the examples in the source code of the function; (2) streamline it analogously to holidayNYSE()</em>.</p></li>
@@ -48,7 +48,7 @@
 <li><p>removed <code>getRmetricsOption</code>, use <code>getRmetricsOptions</code> (i.e., plural) instead.</p></li>
 </ul></div>
     <div class="section level2">
-<h2 class="pkg-version" data-toc-text="4051.111" id="timedate-4051111-1">timeDate 4051.111<a class="anchor" aria-label="anchor" href="#timedate-4051111-1"></a></h2><p class="text-muted">CRAN release: 2025-10-17</p>
+<h2 class="pkg-version" data-toc-text="4051.111" id="timedate-4051111">timeDate 4051.111<a class="anchor" aria-label="anchor" href="#timedate-4051111"></a></h2><p class="text-muted">CRAN release: 2025-10-17</p>
 <ul><li><p>new class <code>"timeInterval"</code> represents time intervals. Methods are defined for computing union, intersection, complement and set difference of <code>"timeInterval"</code> objects, as well as checking whether dates and time intervals are contained in such objects. See <code><a href="../reference/timeInterval-methods.html">?timeInterval</a></code>, <code><a href="../reference/timeInterval-class.html">class ? timeInterval</a></code>, <code><a href="../reference/in_int.html">?in_int</a></code>. Not systematically tested yet.</p></li>
 <li><p>the prototype of class <code>"timeDate"</code> now sets admissible values for the slots. The previous defaults (e.g., <code>character(0)</code> for slots <code>format</code> and <code>FinCenter</code>) were causing minor problems in rare cases.</p></li>
 <li><p>streamlined the initialisation method of <code>"timeDate"</code>. This changes slot <code>format</code> in some inconsequential cases involving <code>Inf</code> (e.g., <code>timeDate(.POSIXct(-Inf))@format</code> was <code>"%Y-%m-%d"</code> but now is <code>"%Y-%m-%d   %H:%M:%S"</code>, which even seems more appropriate).</p></li>

@@ -1,8 +1,6 @@
 # Changelog
 
-## timeDate 4051.111
-
-CRAN release: 2025-10-17
+## timeDate 4051.111.9000
 
 - EDIT BEFORE SUBMITTING NEXT VERSION
 
